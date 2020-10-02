@@ -3,7 +3,7 @@ import { home } from './home';
 import { menu } from './menu';
 import { contact } from './contact';
 
-const header = document.querySelector('menu');
+const nav = document.querySelector('nav');
 
 const content = (event) => {
   const section = document.querySelector('section');
