@@ -3547,3 +3547,6 @@ node_modules/yargs/yargs.js
 .DS_Store
 node_modules/.cache/terser-webpack-plugin/content-v2/sha512/45/04/19c604ee3bd36bb8e2c8860a9d1c55e54dffe1b24943ffd8c68266662cbb939bce4b5dbf4591ea751e047e89e0c7b2ca699363ecab57634cc9d19a4e10bb
 node_modules/.cache/terser-webpack-plugin/index-v5/7e/31/808bb4e4659d0181cbfa19a72465fddd2e4ea34f404fc8ab58bf32eb6fb6
+*.swp
+node_modules/.cache/terser-webpack-plugin/content-v2/sha512/0a/ec/dfb4db5f57f7098e8ba95270be458afd1baff0ad084e05c1c84ee5110b430a4346cff7fe383f37fe627cf44ce55625f803eb8a046a1b4f0c4ca082d8bb50
+node_modules/.cache/terser-webpack-plugin/index-v5/2c/9b/989894c341d00adade8ba61dd44065a03d207854a5585d3676179d256de1
