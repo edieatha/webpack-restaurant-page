@@ -1,7 +1,8 @@
 const home = () => {
   const section = document.createElement('section');
   section.classList.add('section');
-  section.innerHTML = `<h1>Home!</h1>`;
+  section.innerHTML = `
+  <img src="../dist/img/home.png" class="img-fluid" alt="Responsive image"> `;
   document.body.append(section);
 };
 export { home };

@@ -11,6 +11,15 @@ const content = (event) => {
 
   if (!link.dataset.content) return;
 
+  const selected = (tab) => {
+    const selectedTab = nav.querySelector('.active');
+
+    if (selectedTab) {
+      selectedTab.classList.remove('active');
+    }
+    tab.classList.add('active');
+  };
+
   if (section) {
     section.remove();
   }

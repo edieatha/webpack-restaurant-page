@@ -1,7 +1,9 @@
 const menu = () => {
   const section = document.createElement('section');
   section.classList.add('section');
-  section.innerHTML = '<h1>Menu</h1>';
+  section.innerHTML = `
+  <img src="../dist/img/menu1.png" class="img-fluid" alt="Responsive image">
+  `;
   document.body.append(section);
 };
 export { menu };
