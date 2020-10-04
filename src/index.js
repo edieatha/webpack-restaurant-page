@@ -6,8 +6,8 @@ import { contact } from './contact';
 const nav = document.querySelector('nav');
 
 const content = (event) => {
-  const section = document.querySelector('section');
   const link = event.target.closest('a');
+  const section = document.querySelector('section');
 
   if (!link.dataset.content) return;
 
@@ -23,3 +23,6 @@ const content = (event) => {
     contact();
   }
 };
+
+nav.addEventListener('click', content);
+nav.querySelector('.nav-link[data-content="home"]').click();

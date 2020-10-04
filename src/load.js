@@ -1,19 +1,16 @@
 (() => {
   const nav = document.createElement('nav');
   nav.innerHTML = `
-<nav class="navbar navbar-light bg-light">
-  <span class="navbar-brand mb-0 h1">Edie's Restaurant</span>
   <ul class="nav nav-tabs">
   <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">Home</a>
+    <a class="nav-link" data-content="home">Home</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Menu</a>
+    <a class="nav-link" data-content="menu">Menu</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Contact</a>
+    <a class="nav-link" data-content="contact">Contact</a>
   </li>
-</ul> 
-</nav>`;
+</ul>`;
   document.body.append(nav);
 })();
