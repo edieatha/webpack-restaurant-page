@@ -6,5 +6,4 @@ const contact = () => {
   `;
   document.body.append(section);
 };
-export { contact };
-
+export default { contact };

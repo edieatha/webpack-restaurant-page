@@ -5,4 +5,4 @@ const home = () => {
   <img src="../dist/img/home.png" class="img-fluid" alt="Responsive image"> `;
   document.body.append(section);
 };
-export { home };
+export default { home };
