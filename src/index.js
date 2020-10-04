@@ -1,7 +1,7 @@
 import './load';
-import { home } from './home';
-import { menu } from './menu';
-import { contact } from './contact';
+import home from './home';
+import menu from './menu';
+import contact from './contact';
 
 const nav = document.querySelector('nav');
 
@@ -22,6 +22,7 @@ const content = (event) => {
 
   if (section) {
     section.remove();
+    selected();
   }
 
   if (link.dataset.content === 'home') {

@@ -6,4 +6,4 @@ const menu = () => {
   `;
   document.body.append(section);
 };
-export default { menu };
+export default menu;
