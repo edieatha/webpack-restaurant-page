@@ -39,7 +39,7 @@ To get a local copy up and running follow these simple example steps:
 8. Sixth, Open dist/index.html page with browser
 
 
-## See a live demo [Here](https://condescending-einstein-bfbe8e.netlify.app)
+## See a live demo [Here](https://elated-elion-3f5cef.netlify.app)
 
 ## Show your support
 Give a ⭐️ if you like this project!
@@ -58,4 +58,4 @@ Give a ⭐️ if you like this project!
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/edieatha/tictactoe.github.io/issues).
+Feel free to check the [issues page](https://github.com/edieatha/webpack-restaurant-page/issues).
