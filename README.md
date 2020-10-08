@@ -58,4 +58,4 @@ Give a ⭐️ if you like this project!
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/edieatha/webpack-restaurant-page/issues).
+Feel free to check the [issues page](https://raw.githack.com/edieatha/webpack-restaurant-page/development/dist/index.html).
